@@ -1,6 +1,6 @@
 % Encoding: UTF-8
 
-@InProceedings{Lucas:1981:IIR:1623264.1623280,
+@InProceedings{Lucas1981,
   author    = {Lucas, Bruce D. and Kanade, Takeo},
   title     = {An Iterative Image Registration Technique with an Application to Stereo Vision},
   booktitle = {Proceedings of the 7th International Joint Conference on Artificial Intelligence - Volume 2},
@@ -9,10 +9,85 @@
   pages     = {674--679},
   address   = {San Francisco, CA, USA},
   publisher = {Morgan Kaufmann Publishers Inc.},
+  abstract  = {Image registration finds a variety of applications in computer vision. Unfortunately, traditional image registration techniques tend to be costly. We present a new image registration technique that makes use of the spatial intensity gradient of the images to find a good match using a type of Newton-Raphson iteration. Our technique is faster because it examines far fewer potential matches between the images than existing techniques. Furthermore, this registration technique can be generalized to handle rotation, scaling and shearing. We show show our technique can be adapted for use in a stereo vision system.},
   acmid     = {1623280},
+  file      = {:../Papers/lucaskanade81.pdf:PDF},
+  groups    = {2018 - AIAA, Computer Vision},
   location  = {Vancouver, BC, Canada},
   numpages  = {6},
   url       = {http://dl.acm.org/citation.cfm?id=1623264.1623280},
 }
 
+@InProceedings{Mallon2017,
+  author    = {Mallon, Christopher J and Muthig, Benjamin J and Gamagedara, Kanishke and Patil, Kalpesh and Friedman, Chen and Lee, Taeyoung and Snyder, Murray},
+  title     = {Measurements of Ship Air Wake Using Airborne Anemometers},
+  year      = {2017},
+  series    = {55th AIAA Aerospace Sciences Meeting},
+  publisher = {American Institute of Aeronautics and Astronautics},
+  abstract  = {Ship air wake is dynamically surveyed in-situ using an airborne measurement system, which measures magnitude and direction of air velocity, as well as anemometer location and orientation. The system is not restricted to ship deck locations so it has the ability to quickly survey the ship’s air wake and collect measurements at distances off the ship’s stern, which is not possible with fixed-position deck-mounted anemometers. The air wake will be surveyed by two ultrasonic anemometers mounted on an eight-rotor unmanned aircraft system with a high payload capability. Air velocities induced by the angular and linear motions of the unmanned aircraft system are subtracted from the total measured velocities. The platform’s motions are measured using a collection of on-board sensors, while also incorporating a GPS to register the location of each measurement. Initial results are presented from outdoor experiments in the field.},
+  doi       = {doi:10.2514/6.2017-0252},
+  file      = {:../Papers/Measurements_of_Ship_Air_Wake_Using_Airborne_Anemometers.pdf:PDF},
+  groups    = {My Papers, 2018 - AIAA},
+  url       = {https://doi.org/10.2514/6.2017-0252},
+}
+
+@InProceedings{Snyder2010,
+  author    = {Snyder, Murray R and Shishkoff, Joshua P and Roberson, Franklin D and McDonald, Martin C and Brownell, Cody J and Kang, Hyung Suk and Wilkinson, Colin H},
+  title     = {Comparison of experimental and computational ship air wakes for YP class patrol craft},
+  booktitle = {American Society of Naval Engineers Launch and Recovery Symposium, Arlington, VA},
+  year      = {2010},
+  file      = {:../Papers/ADA529728.pdf:PDF},
+  groups    = {2018 - AIAA},
+  url       = {https://doi.org/10.2514/6.2017-0252},
+}
+
+@Article{Chao2016,
+  author    = {Chao, Chun-Tang and Chung, Ming-Hsuan and Chiou, Juing-Shian and Wang, Chi-Jo},
+  title     = {A simple interface for 3d position estimation of a mobile robot with single camera},
+  journal   = {Sensors},
+  year      = {2016},
+  volume    = {16},
+  number    = {4},
+  pages     = {435},
+  doi       = {10.3390/s16040435},
+  file      = {:../Papers/sensors-16-00435.pdf:PDF},
+  groups    = {2018 - AIAA},
+  publisher = {Multidisciplinary Digital Publishing Institute},
+  url       = {http://www.mdpi.com/1424-8220/16/4/435/htm},
+}
+
+@Article{Ben-Afia2014,
+  author    = {Ben-Afia, Amani and Deambrogio, Lina and Sal{\'o}s, Daniel and Escher, Anne-Christine and Macabiau, Christophe and Soulier, Laurent and Gay-Bellile, Vincent},
+  title     = {Review and classification of vision-based localisation techniques in unknown environments},
+  journal   = {IET Radar, Sonar \& Navigation},
+  year      = {2014},
+  volume    = {8},
+  number    = {9},
+  pages     = {1059--1072},
+  abstract  = {This paper presents a review of the state of the art and a novel classification of current vision-based localization techniques in unknown environments. Indeed, due to progresses made in computer vision, it is now possible to consider vision-based systems as promising navigation means that can complement traditional navigation sensors like Global Navigation Satellite Systems (GNSS) and Inertial Navigation Systems (INS). This paper aims to review techniques employing a camera as a localization sensor, provide a classification of techniques and introduce schemes that exploit the use of video information within a multi-sensor system. In fact, a general model is needed to better compare existing techniques in order to decide which approach is appropriate and which are the innovation axes. In addition, existing classifications only consider techniques based on vision as a standalone tool and do not consider video as a sensor among others. The focus is addressed to scenarios where no a priori knowledge of the environment is provided. In fact, these scenarios are the most challenging since the system has to cope with objects as they appear in the scene without any prior information about their expected position.},
+  file      = {:../Papers/Ben_Afia_IET2014.pdf:PDF},
+  groups    = {2018 - AIAA},
+  publisher = {IET},
+}
+
+@InProceedings{agrawal2006real,
+  author       = {Agrawal, Motilal and Konolige, Kurt},
+  title        = {Real-time localization in outdoor environments using stereo vision and inexpensive gps},
+  booktitle    = {Pattern Recognition, 2006. ICPR 2006. 18th International Conference on},
+  year         = {2006},
+  volume       = {3},
+  pages        = {1063--1068},
+  organization = {IEEE},
+  abstract     = {We describe a real-time, low-cost system to localize a mobile robot in outdoor environments. Our system relies on stereo vision to robustly estimate frame-to-frame motion in real time (also known as visual odometry). The motion estimation problem is formulated efficiently in the disparity space and results in accurate and robust estimates of the motion even for a small-baseline configuration. Our system uses inertial measurements to fill in motion estimates when visual odometry fails. This incremental motion is then fused with a low-cost GPS sensor using a Kalman Filter to prevent long-term drifts. Experimental results are presented for outdoor localization in moderately sized environments (≥100 meters)},
+  file         = {:../Papers/Real-time_Localization_in_Outdoor_Environments_usi.pdf:PDF},
+  groups       = {2018 - AIAA},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
+
+@Comment{jabref-meta: groupstree:
+0 AllEntriesGroup:;
+1 ExplicitGroup:2018 - AIAA\;0\;;
+1 ExplicitGroup:Computer Vision\;0\;;
+1 ExplicitGroup:My Papers\;0\;;
+}
