@@ -10,25 +10,11 @@
   acmid     = {1623280},
   author    = {Lucas, Bruce D. and Kanade, Takeo},
   booktitle = {Proceedings of the 7th International Joint Conference on Artificial Intelligence - Volume 2},
-  file      = {:../Papers/lucaskanade81.pdf:PDF},
-  groups    = {2018 - AIAA, Computer Vision},
+  groups    = {2018 - AIAA, Computer Vision, Cited},
   location  = {Vancouver, BC, Canada},
   numpages  = {6},
   pages     = {674--679},
   url       = {http://dl.acm.org/citation.cfm?id=1623264.1623280},
-}
-
-@InProceedings{Mallon2017,
-  author    = {Mallon, Christopher J and Muthig, Benjamin J and Gamagedara, Kanishke and Patil, Kalpesh and Friedman, Chen and Lee, Taeyoung and Snyder, Murray},
-  title     = {Measurements of Ship Air Wake Using Airborne Anemometers},
-  booktitle = {55th AIAA Aerospace Sciences Meeting},
-  year      = {2017},
-  publisher = {American Institute of Aeronautics and Astronautics},
-  abstract  = {Ship air wake is dynamically surveyed in-situ using an airborne measurement system, which measures magnitude and direction of air velocity, as well as anemometer location and orientation. The system is not restricted to ship deck locations so it has the ability to quickly survey the ship’s air wake and collect measurements at distances off the ship’s stern, which is not possible with fixed-position deck-mounted anemometers. The air wake will be surveyed by two ultrasonic anemometers mounted on an eight-rotor unmanned aircraft system with a high payload capability. Air velocities induced by the angular and linear motions of the unmanned aircraft system are subtracted from the total measured velocities. The platform’s motions are measured using a collection of on-board sensors, while also incorporating a GPS to register the location of each measurement. Initial results are presented from outdoor experiments in the field.},
-  doi       = {doi:10.2514/6.2017-0252},
-  file      = {:../Papers/Measurements_of_Ship_Air_Wake_Using_Airborne_Anemometers.pdf:PDF},
-  groups    = {My Papers, 2018 - AIAA, My-papers},
-  url       = {https://doi.org/10.2514/6.2017-0252},
 }
 
 @InProceedings{Snyder2010,
@@ -36,8 +22,7 @@
   title     = {Comparison of experimental and computational ship air wakes for YP class patrol craft},
   booktitle = {American Society of Naval Engineers Launch and Recovery Symposium, Arlington, VA},
   year      = {2010},
-  file      = {:../Papers/ADA529728.pdf:PDF},
-  groups    = {2018 - AIAA},
+  groups    = {2018 - AIAA, Cited, Ship-Air-Wake},
   url       = {https://doi.org/10.2514/6.2017-0252},
 }
 
@@ -50,8 +35,7 @@
   number    = {4},
   pages     = {435},
   doi       = {10.3390/s16040435},
-  file      = {:../Papers/sensors-16-00435.pdf:PDF},
-  groups    = {2018 - AIAA},
+  groups    = {2018 - AIAA, Cited},
   publisher = {Multidisciplinary Digital Publishing Institute},
   url       = {http://www.mdpi.com/1424-8220/16/4/435/htm},
 }
@@ -65,8 +49,8 @@
   number    = {9},
   pages     = {1059--1072},
   abstract  = {This paper presents a review of the state of the art and a novel classification of current vision-based localization techniques in unknown environments. Indeed, due to progresses made in computer vision, it is now possible to consider vision-based systems as promising navigation means that can complement traditional navigation sensors like Global Navigation Satellite Systems (GNSS) and Inertial Navigation Systems (INS). This paper aims to review techniques employing a camera as a localization sensor, provide a classification of techniques and introduce schemes that exploit the use of video information within a multi-sensor system. In fact, a general model is needed to better compare existing techniques in order to decide which approach is appropriate and which are the innovation axes. In addition, existing classifications only consider techniques based on vision as a standalone tool and do not consider video as a sensor among others. The focus is addressed to scenarios where no a priori knowledge of the environment is provided. In fact, these scenarios are the most challenging since the system has to cope with objects as they appear in the scene without any prior information about their expected position.},
-  file      = {:../Papers/Ben_Afia_IET2014.pdf:PDF},
-  groups    = {2018 - AIAA},
+  doi       = {10.1049/iet-rsn.2013.0389},
+  groups    = {2018 - AIAA, Cited},
   publisher = {IET},
 }
 
@@ -79,8 +63,7 @@
   pages        = {1063--1068},
   organization = {IEEE},
   abstract     = {We describe a real-time, low-cost system to localize a mobile robot in outdoor environments. Our system relies on stereo vision to robustly estimate frame-to-frame motion in real time (also known as visual odometry). The motion estimation problem is formulated efficiently in the disparity space and results in accurate and robust estimates of the motion even for a small-baseline configuration. Our system uses inertial measurements to fill in motion estimates when visual odometry fails. This incremental motion is then fused with a low-cost GPS sensor using a Kalman Filter to prevent long-term drifts. Experimental results are presented for outdoor localization in moderately sized environments (≥100 meters)},
-  file         = {:../Papers/Real-time_Localization_in_Outdoor_Environments_usi.pdf:PDF},
-  groups       = {2018 - AIAA},
+  groups       = {2018 - AIAA, Cited, UAV-Control},
 }
 
 @Article{Kendoul2009,
@@ -91,15 +74,16 @@
   volume    = {57},
   number    = {6},
   pages     = {591--602},
-  groups    = {2018 - AIAA},
+  groups    = {2018 - AIAA, Cited},
   publisher = {Elsevier},
   url       = {https://doi.org/10.1016/j.robot.2009.02.001},
 }
 
 @Manual{NAVAIR-00-08T-122,
-  title       = {NAVAIR 00-08T-122 - Helicopter operating procedures for air-capable ships NATOPS manual},
+  title       = {{NAVAIR 00-08T-122} - Helicopter operating procedures for air-capable ships {NATOPS} manual},
   month       = feb,
   year        = {1998},
+  groups      = {Cited, Ship-Air-Wake},
   institution = {Naval Air System Command, US Navy},
   url         = {http://www.public.navy.mil/airfor/srss/Documents/PUBS/NAVAIR%2000-80t-122%20HOP.pdf},
 }
@@ -107,73 +91,19 @@
 @Manual{OpenCV,
   title        = {Open Source Computer Vision Library - v2.4.9},
   organization = {\url{https://www.opencv.org/}},
+  groups       = {Cited},
   url          = {https://www.opencv.org/},
 }
 
-@Article{scikit-learn,
+@Article{Scikit-learn,
   author  = {Pedregosa, F. and Varoquaux, G. and Gramfort, A. and Michel, V. and Thirion, B. and Grisel, O. and Blondel, M. and Prettenhofer, P. and Weiss, R. and Dubourg, V. and Vanderplas, J. and Passos, A. and Cournapeau, D. and Brucher, M. and Perrot, M. and Duchesnay, E.},
   title   = {Scikit-learn: Machine Learning in {P}ython},
   journal = {Journal of Machine Learning Research},
   year    = {2011},
   volume  = {12},
   pages   = {2825--2830},
+  groups  = {Cited},
   url     = {http://scikit-learn.org/},
-}
-
-@InProceedings{Phelps2018,
-  author    = {Phelps, David and Gamagedara, Kanishke and Waldron, Jeremey and Patil, Kalpesh and Snyder, Murray},
-  title     = {Ship Air Wake Detection Using Small Fixed Wing Unmanned Aerial Vehicle},
-  booktitle = {2018 AIAA Aerospace Sciences Meeting},
-  year      = {2018},
-  series    = {AIAA SciTech Forum},
-  month     = jun,
-  publisher = {American Institute of Aeronautics and Astronautics},
-  comment   = {doi:10.2514/6.2018-0784},
-  doi       = {10.2514/6.2018-0784},
-  groups    = {My-papers},
-  journal   = {2018 AIAA Aerospace Sciences Meeting},
-  url       = {https://doi.org/10.2514/6.2018-0784},
-}
-
-@InProceedings{Robaglia2018,
-  author    = {Robaglia, Agnes E. and Libine, Simon and Gamagedara, Kanishke},
-  title     = {Studies on Autonomous Landing of an Unmanned Aerial Vehicle on a Moving Ship},
-  booktitle = {2018 AIAA Information Systems-AIAA Infotech@ Aerospace},
-  year      = {2018},
-  series    = {AIAA SciTech Forum},
-  month     = jun,
-  publisher = {American Institute of Aeronautics and Astronautics},
-  comment   = {doi:10.2514/6.2018-1461},
-  doi       = {10.2514/6.2018-1461},
-  groups    = {My-papers},
-  journal   = {2018 AIAA Information Systems-AIAA Infotech @ Aerospace},
-  url       = {https://doi.org/10.2514/6.2018-1461},
-}
-
-@InProceedings{Gamagedara2018,
-  author    = {Gamagedara, Kanishke and Patil, Kalpesh and Lee, Taeyoung and Snyder, Murray R.},
-  title     = {Vision-Based Relative Localization for Airborne Measurements of Ship Air Wake},
-  booktitle = {2018 AIAA Atmospheric Flight Mechanics Conference},
-  year      = {2018},
-  series    = {AIAA SciTech Forum},
-  month     = jun,
-  publisher = {American Institute of Aeronautics and Astronautics},
-  comment   = {doi:10.2514/6.2018-0527},
-  doi       = {10.2514/6.2018-0527},
-  groups    = {My-papers},
-  url       = {https://doi.org/10.2514/6.2018-0527},
-}
-
-@InProceedings{Somasiri2015,
-  author    = {J. A. A. S. Somasiri and K. G. B. Gamagedara and D. H. S. Maithripala and J. M. Berg},
-  title     = {Implementation of an almost globally stable intrinsic nonlinear PID controller for attitude stabilization of a quadrotor},
-  booktitle = {2015 IEEE 10th International Conference on Industrial and Information Systems (ICIIS)},
-  year      = {2015},
-  pages     = {425-428},
-  month     = {Dec},
-  doi       = {10.1109/ICIINFS.2015.7399049},
-  groups    = {My-papers},
-  keywords  = {aircraft control;asymptotic stability;attitude control;geometry;helicopters;microcontrollers;nonlinear control systems;tensors;three-term control;almost-globally stable intrinsic nonlinear PID controller;attitude stabilization;flight test;inertia tensor;locally exponential-almost globally stable geometric PID controller;low-cost off-the shelf Arduino-based quadrotor platform;onboard processor;vertically upright configuration;Automation;Backstepping;DC motors;Robots},
 }
 
 @Article{Snyder2013,
@@ -184,6 +114,7 @@
   volume    = {125},
   number    = {1},
   pages     = {69--78},
+  groups    = {Cited, Ship-Air-Wake},
   publisher = {American Society of Naval Engineers},
 }
 
@@ -200,6 +131,7 @@
   __markedentry = {[Kanishke:]},
   comment       = {doi: 10.2514/1.C031727},
   doi           = {10.2514/1.c031727},
+  groups        = {Cited, Ship-Air-Wake},
   publisher     = {American Institute of Aeronautics and Astronautics},
   url           = {https://doi.org/10.2514/1.C031727},
 }
@@ -212,6 +144,7 @@
   pages        = {118-123},
   organization = {IEEE},
   doi          = {10.1109/ROSE.2013.6698427},
+  groups       = {Cited, Ship-Air-Wake},
 }
 
 @TechReport{Metzger2012,
@@ -219,12 +152,14 @@
   title       = {Measurement of Ship Air Wake Impact on a Remotely Piloted Vehicle},
   institution = {NAVAL ACADEMY ANNAPOLIS MD},
   year        = {2012},
+  groups      = {Cited, Ship-Air-Wake},
 }
 
 @Manual{SwiftNavMulti,
   title        = {Piksi Multi Product Summary v1.2.2},
   organization = {Swift Navigation},
   year         = {2018},
+  groups       = {Cited},
   url          = {https://www.swiftnav.com/resource-files/Piksi%20Multi/v1.2.2/Specification/Piksi%20Multi%20Product%20Summary%20v1.2.2.pdf},
 }
 
@@ -233,11 +168,182 @@
   publisher = {Prentice Hall},
   year      = {1991},
   author    = {Brogan, William L},
+  groups    = {Cited, Books},
+}
+
+@InProceedings{Gamagedara2019,
+  author    = {Kanishke Gamagedara and Taeyoung Lee and Murray R. Snyder},
+  title     = {Real-time Kinematics {GPS} Based Telemetry System for Airborne Measurements of Ship Air Wake},
+  booktitle = {{AIAA} Scitech 2019 Forum},
+  year      = {2019},
+  month     = {jan},
+  publisher = {American Institute of Aeronautics and Astronautics},
+  doi       = {10.2514/6.2019-2377},
+  groups    = {My-Papers, Ship-Air-Wake},
+}
+
+@Article{Tomic2012,
+  author    = {Tomic, Teodor and Schmid, Korbinian and Lutz, Philipp and Domel, Andreas and Kassecker, Michael and Mair, Elmar and Grixa, Iris Lynne and Ruess, Felix and Suppa, Michael and Burschka, Darius},
+  title     = {Toward a fully autonomous UAV: Research platform for indoor and outdoor urban search and rescue},
+  journal   = {IEEE robotics \& automation magazine},
+  year      = {2012},
+  volume    = {19},
+  number    = {3},
+  pages     = {46--56},
+  comment   = {discusses a framework for a fully autnomous UAV; inspired by IMAV indoor exploration challenge; fly into a house of known shape and dimensions and map the environment without GPS or motion tracking; time synced multiple computers},
+  groups    = {UAV-Control},
+  publisher = {IEEE},
+}
+
+@InProceedings{Lee2012,
+  author    = {Daewon Lee and Tyler Ryan and H. Jin. Kim},
+  title     = {Autonomous landing of a {VTOL} {UAV} on a moving platform using image-based visual servoing},
+  booktitle = {2012 {IEEE} International Conference on Robotics and Automation},
+  year      = {2012},
+  month     = {may},
+  publisher = {{IEEE}},
+  comment   = {Adaptive sliding mode controller, IBVS},
+  doi       = {10.1109/icra.2012.6224828},
+  groups    = {Autonomous-Landing, UAV-Control},
+}
+
+@InProceedings{Lange2009,
+  author       = {Lange, Sven and Sunderhauf, Niko and Protzel, Peter},
+  title        = {A vision based onboard approach for landing and position control of an autonomous multirotor {UAV} in {GPS}-denied environments},
+  booktitle    = {Advanced Robotics, 2009. {ICAR} 2009. International Conference on},
+  year         = {2009},
+  pages        = {1--6},
+  organization = {{IEEE}},
+  comment      = {Ring like landing platform, each ring is unique},
+  groups       = {Autonomous-Landing},
+}
+
+@InProceedings{Kong2014,
+  author    = {Weiwei Kong and Dianle Zhou and Daibing Zhang and Jianwei Zhang},
+  title     = {Vision-based autonomous landing system for unmanned aerial vehicle: A survey},
+  booktitle = {2014 International Conference on Multisensor Fusion and Information Integration for Intelligent Systems ({MFI})},
+  year      = {2014},
+  month     = {sep},
+  publisher = {{IEEE}},
+  comment   = {survey paper, IBVS (Image-based Visual Servoying), PBVS (Position-Based Visual Servoying)},
+  doi       = {10.1109/mfi.2014.6997750},
+  groups    = {Autonomous-Landing},
+}
+
+@InProceedings{Mallon2017,
+  author    = {Christopher J. Mallon and Benjamin J. Muthig and Kanishke Gamagedara and Kalpesh Patil and Chen Friedman and Taeyoung Lee and Murray R. Snyder},
+  title     = {Measurements of Ship Air Wake Using Airborne Anemometers},
+  booktitle = {55th {AIAA} Aerospace Sciences Meeting},
+  year      = {2017},
+  month     = {jan},
+  publisher = {American Institute of Aeronautics and Astronautics},
+  doi       = {10.2514/6.2017-0252},
+  groups    = {My-Papers, Ship-Air-Wake},
+}
+
+@InProceedings{Phelps2018,
+  author    = {David Phelps and Kanishke Gamagedara and Jeremey Waldron and Kalpesh Patil and Murray Snyder},
+  title     = {Ship Air Wake Detection Using Small Fixed Wing Unmanned Aerial Vehicle},
+  booktitle = {2018 {AIAA} Aerospace Sciences Meeting},
+  year      = {2018},
+  month     = {jan},
+  publisher = {American Institute of Aeronautics and Astronautics},
+  doi       = {10.2514/6.2018-0784},
+  groups    = {My-Papers, Ship-Air-Wake},
+}
+
+@InProceedings{Robaglia2018,
+  author    = {Agnes E. Robaglia and Simon Libine and Kanishke Gamagedara},
+  title     = {Autonomous Landing of an Unmanned Aerial Vehicle on a Moving Ship},
+  booktitle = {2018 {AIAA} Information Systems-{AIAA} Infotech @ Aerospace},
+  year      = {2018},
+  month     = {jan},
+  publisher = {American Institute of Aeronautics and Astronautics},
+  doi       = {10.2514/6.2018-1461},
+  groups    = {My-Papers},
+}
+
+@InProceedings{Gamagedara2018,
+  author    = {Kanishke Gamagedara and Kalpesh Patil and Taeyoung Lee and Murray R. Snyder},
+  title     = {Vision-Based Relative Localization for Airborne Measurements of Ship Air Wake},
+  booktitle = {2018 {AIAA} Atmospheric Flight Mechanics Conference},
+  year      = {2018},
+  month     = {jan},
+  publisher = {American Institute of Aeronautics and Astronautics},
+  doi       = {10.2514/6.2018-0527},
+  groups    = {My-Papers},
+}
+
+@InProceedings{Somasiri2015,
+  author    = {J. A. A. S. Somasiri and K. G. B. Gamagedara and D. H. S. Maithripala and J. M. Berg},
+  title     = {Implementation of an almost globally stable intrinsic nonlinear {PID} controller for attitude stabilization of a quadrotor},
+  booktitle = {2015 {IEEE} 10th International Conference on Industrial and Information Systems ({ICIIS})},
+  year      = {2015},
+  month     = {dec},
+  publisher = {{IEEE}},
+  doi       = {10.1109/iciinfs.2015.7399049},
+  groups    = {My-Papers, UAV-Control},
+}
+
+@Article{Araar2016,
+  author    = {Oualid Araar and Nabil Aouf and Ivan Vitanov},
+  title     = {Vision Based Autonomous Landing of Multirotor {UAV} on Moving Platform},
+  journal   = {Journal of Intelligent {\&} Robotic Systems},
+  year      = {2016},
+  volume    = {85},
+  number    = {2},
+  pages     = {369--384},
+  month     = {aug},
+  comment   = {provides a good source of references related to autonomous landing, uses an array of AprilTags of different sizes to detect landing pad, talks about Hamming distance, uses 16h5 encoding scheme to enable less processing and larger detection range, uses an outlier rejection scheme to deal with wrongly detected tags, compares non-iterative and iterative PnP methods used, uses slightly less accurate homography based solution for pose estimatation instead of Robust Pose from Planar target (RPP) for faster calculations, talks about loosely and tighlty coupled approaches for visual-inertial data fusion, EKF and H infinity fileter implemented for data fusion, EKF outperforms H infinity filter in estimating the relative position, done experimental tests, they can be improved though},
+  doi       = {10.1007/s10846-016-0399-z},
+  groups    = {Autonomous-Landing},
+  keywords  = {rank5},
+  publisher = {Springer Nature},
+}
+
+@Article{Wenzel2010,
+  author    = {Karl Engelbert Wenzel and Andreas Masselli and Andreas Zell},
+  title     = {Automatic Take Off, Tracking and Landing of a Miniature {UAV} on a Moving Carrier Vehicle},
+  journal   = {Journal of Intelligent {\&} Robotic Systems},
+  year      = {2010},
+  volume    = {61},
+  number    = {1-4},
+  pages     = {221--238},
+  month     = {oct},
+  doi       = {10.1007/s10846-010-9473-0},
+  groups    = {Autonomous-Landing},
+  publisher = {Springer Nature},
+}
+
+@InProceedings{Lee2013,
+  author    = {Taeyoung Lee and Koushil Sreenath and Vijay Kumar},
+  title     = {Geometric control of cooperating multiple quadrotor {UAVs} with a suspended payload},
+  booktitle = {52nd {IEEE} Conference on Decision and Control},
+  year      = {2013},
+  month     = {dec},
+  publisher = {{IEEE}},
+  comment   = {point mass connected to multiple quadrotors by rigid massless links,  point mass asymptotically follows a given desired trajectory},
+  doi       = {10.1109/cdc.2013.6760757},
+  groups    = {UAV-Control},
+}
+
+@Book{Kim2011,
+  title     = {Kalman Filter for Beginners: with {MATLAB} Examples},
+  publisher = {CreateSpace Independent Publishing Platform},
+  year      = {2011},
+  author    = {Phil Kim},
+  isbn      = {1463648359},
+  groups    = {Books},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
 
 @Comment{jabref-meta: grouping:
 0 AllEntriesGroup:;
-1 StaticGroup:My-papers\;0\;1\;\;\;\;;
+1 StaticGroup:My-Papers\;0\;1\;0x008000ff\;\;\;;
+1 StaticGroup:Cited\;0\;1\;0x0000ffff\;\;\;;
+1 StaticGroup:UAV-Control\;2\;1\;\;\;\;;
+2 StaticGroup:Autonomous-Landing\;0\;1\;\;\;\;;
+1 StaticGroup:Ship-Air-Wake\;0\;1\;\;\;\;;
+1 StaticGroup:Books\;0\;1\;\;\;\;;
 }
