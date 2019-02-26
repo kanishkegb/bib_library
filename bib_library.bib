@@ -80,7 +80,7 @@
 }
 
 @Manual{NAVAIR-00-08T-122,
-  title       = {NAVAIR 00-08T-122 - Helicopter operating procedures for air-capable ships NATOPS manual},
+  title       = {{NAVAIR 00-08T-122} - Helicopter operating procedures for air-capable ships {NATOPS} manual},
   month       = feb,
   year        = {1998},
   groups      = {Cited, Ship-Air-Wake},
@@ -168,7 +168,7 @@
   publisher = {Prentice Hall},
   year      = {1991},
   author    = {Brogan, William L},
-  groups    = {Cited},
+  groups    = {Cited, Books},
 }
 
 @InProceedings{Gamagedara2019,
@@ -285,6 +285,70 @@
   groups    = {My-Papers, UAV-Control},
 }
 
+@Article{Araar2016,
+  author    = {Oualid Araar and Nabil Aouf and Ivan Vitanov},
+  title     = {Vision Based Autonomous Landing of Multirotor {UAV} on Moving Platform},
+  journal   = {Journal of Intelligent {\&} Robotic Systems},
+  year      = {2016},
+  volume    = {85},
+  number    = {2},
+  pages     = {369--384},
+  month     = {aug},
+  comment   = {provides a good source of references related to autonomous landing, uses an array of AprilTags of different sizes to detect landing pad, talks about Hamming distance, uses 16h5 encoding scheme to enable less processing and larger detection range, uses an outlier rejection scheme to deal with wrongly detected tags, compares non-iterative and iterative PnP methods used, uses slightly less accurate homography based solution for pose estimatation instead of Robust Pose from Planar target (RPP) for faster calculations, talks about loosely and tighlty coupled approaches for visual-inertial data fusion, EKF and H infinity fileter implemented for data fusion, EKF outperforms H infinity filter in estimating the relative position, done experimental tests, they can be improved though},
+  doi       = {10.1007/s10846-016-0399-z},
+  groups    = {Autonomous-Landing},
+  keywords  = {rank5},
+  publisher = {Springer Nature},
+}
+
+@Article{Wenzel2010,
+  author    = {Karl Engelbert Wenzel and Andreas Masselli and Andreas Zell},
+  title     = {Automatic Take Off, Tracking and Landing of a Miniature {UAV} on a Moving Carrier Vehicle},
+  journal   = {Journal of Intelligent {\&} Robotic Systems},
+  year      = {2010},
+  volume    = {61},
+  number    = {1-4},
+  pages     = {221--238},
+  month     = {oct},
+  doi       = {10.1007/s10846-010-9473-0},
+  groups    = {Autonomous-Landing},
+  publisher = {Springer Nature},
+}
+
+@InProceedings{Lee2013,
+  author    = {Taeyoung Lee and Koushil Sreenath and Vijay Kumar},
+  title     = {Geometric control of cooperating multiple quadrotor {UAVs} with a suspended payload},
+  booktitle = {52nd {IEEE} Conference on Decision and Control},
+  year      = {2013},
+  month     = {dec},
+  publisher = {{IEEE}},
+  comment   = {point mass connected to multiple quadrotors by rigid massless links,  point mass asymptotically follows a given desired trajectory},
+  doi       = {10.1109/cdc.2013.6760757},
+  groups    = {UAV-Control},
+}
+
+@Book{Kim2011,
+  title     = {Kalman Filter for Beginners: with {MATLAB} Examples},
+  publisher = {CreateSpace Independent Publishing Platform},
+  year      = {2011},
+  author    = {Phil Kim},
+  isbn      = {1463648359},
+  groups    = {Books},
+}
+
+@Article{Lee2010,
+  author      = {Taeyoung Lee and Melvin Leok and N. Harris McClamroch},
+  title       = {Control of Complex Maneuvers for a Quadrotor UAV using Geometric Methods on SE(3)},
+  abstract    = {This paper provides new results for control of complex flight maneuvers for a quadrotor unmanned aerial vehicle (UAV). The flight maneuvers are defined by a concatenation of flight modes or primitives, each of which is achieved by a nonlinear controller that solves an output tracking problem. A mathematical model of the quadrotor UAV rigid body dynamics, defined on the configuration space $\SE$, is introduced as a basis for the analysis. The quadrotor UAV has four input degrees of freedom, namely the magnitudes of the four rotor thrusts; each flight mode is defined by solving an asymptotic optimal tracking problem. Although many flight modes can be studied, we focus on three output tracking problems, namely (1) outputs given by the vehicle attitude, (2) outputs given by the three position variables for the vehicle center of mass, and (3) output given by the three velocity variables for the vehicle center of mass. A nonlinear tracking controller is developed on the special Euclidean group $\SE$ for each flight mode, and the closed loop is shown to have desirable closed loop properties that are almost global in each case. Several numerical examples, including one example in which the quadrotor recovers from being initially upside down and another example that includes switching and transitions between different flight modes, illustrate the versatility and generality of the proposed approach.},
+  date        = {2010-03-10},
+  eprint      = {http://arxiv.org/abs/1003.2005v4},
+  eprintclass = {math.OC},
+  eprinttype  = {arXiv},
+  file        = {:http\://arxiv.org/pdf/1003.2005v4:PDF},
+  groups      = {UAV-Control},
+  keywords    = {math.OC, cs.SY},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
 
 @Comment{jabref-meta: grouping:
@@ -294,4 +358,5 @@
 1 StaticGroup:UAV-Control\;2\;1\;\;\;\;;
 2 StaticGroup:Autonomous-Landing\;0\;1\;\;\;\;;
 1 StaticGroup:Ship-Air-Wake\;0\;1\;\;\;\;;
+1 StaticGroup:Books\;0\;1\;\;\;\;;
 }
